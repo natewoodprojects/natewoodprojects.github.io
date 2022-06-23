@@ -1,14 +1,17 @@
 body {
   background-color: rgb(79, 78, 78);
+  font-family: "Joan", serif;
 }
 header {
   background-color: rgb(79, 78, 78);
-  height: 100px;
+  height: 120px;
   padding: 0px;
+  padding-left: 2%;
   margin: 0px;
   display: flex;
-  justify-content: space-around;
+  justify-content: left;
   align-items: center;
+  font-family: "Joan", serif;
 }
 
 section {
@@ -37,17 +40,19 @@ h2 {
 
 p {
   color: white;
+  display: flex;
+  align-items: center;
 }
 
 #left-side {
-  width: 17%;
-  background-image: linear-gradient(skyblue, rgb(20, 81, 105));
+  width: 10%;
+  padding: 0px;
   height: auto;
   border-radius: 0px 50px 50px 0px;
 }
 
 #mid {
-  width: 64%;
+  width: 71%;
   background-color: rgb(255, 255, 255);
   height: auto;
   background-color: rgb(79, 78, 78);
@@ -101,9 +106,19 @@ footer {
 }
 
 #nate-photo {
-  width: 15%;
+  width: 25%;
   height: auto;
   border-radius: 50%;
   border: black 2px;
-  padding: 10px;
+  padding: 50px;
+}
+
+.web-pic {
+  width: 70%;
+}
+
+#connect {
+  background-image: linear-gradient(skyblue, rgb(20, 81, 105));
+  height: auto;
+  border-radius: 0px 50px 50px 0px;
 }
