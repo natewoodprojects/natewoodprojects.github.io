@@ -2,42 +2,115 @@ header {
   height: 100px;
   width: 100%;
   min-height: 15%;
-  background-color: green;
   border-bottom: 2px solid;
+  font-family: "Joan", serif;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 main {
-  height: 700px;
+  height: auto;
   width: 100%;
   min-height: 85%;
-  background-color: red;
   display: flex;
+  font-family: "Joan", serif;
 }
+
+#logo {
+  border: 0px;
+  font-size: 3vw;
+}
+
 aside {
-  height: 100%;
+  height: auto;
   width: 10%;
-  background-color: yellow;
   border-right: 2px solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 article {
-  height: 100%;
+  height: auto;
   width: 45%;
-  background-color: orange;
+}
+
+img {
+  width: 70%;
+}
+
+
+
+li {
+  list-style: none;
 }
 
 p {
-  background-color: rgb(92, 192, 192);
   margin: 10px;
+}
+
+.connect-links {
+  width: 50px;
+}
+
+.website {
+  width: 15%;
+  border-radius: 50%;
+  margin-left: 25px;
+}
+
+#links {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#app-links {
+  padding: 20px;
+  font-size: 2vw;
+}
+
+#title {
+  font-size: 8vw;
+  font-family: "Joan", serif;
+  padding: 30px;
+}
+
+#catchphrase {
+  font-size: 2.8vw;
+  font-family: "Joan", serif;
+  padding: 30px;
+}
+
+#bio {
+  font-size: 2vw;
+  width: 50%;
+  margin: 30px;
 }
 
 #picture-links-area {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: orangered;
 }
+
 #profile-contact {
-  height: 80%;
-  width: 70%;
-  background-color: red;
+  height: 70%;
+  width: 55%;
+}
+
+#profile-pic {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+#website-box {
+  padding: 20px;
+  /* display: flex;
+  align-items: center;
+  justify-content: left; */
 }

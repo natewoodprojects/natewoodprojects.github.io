@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>natewoodprojects</title>
     <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,73 +16,10 @@
   </head>
   <body>
     <header>
-      <h2>NATEWOODPROJECTS</h2>
+      <p id="logo">NWP</p>
     </header>
-    <section>
-      <div id="left-side">
-        <div id="connect">
-          <p>
-            <li>Click below to connect:</li>
-            <li>
-              <a
-                href="mailto:natewoodprojects@gmail.com"
-                target="_blank"
-                rel="noreferrer noopener"
-                ><img src="./photos/gmail.png" alt="Gmail"
-              /></a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/natewoodprojects/"
-                target="_blank"
-                rel="noreferrer noopener"
-                ><img src="./photos/linkedin.png" alt="LinkedIn"
-              /></a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/natewoodprojects/"
-                target="_blank"
-                rel="noreferrer noopener"
-                ><img src="./photos/github.png" alt="github"
-              /></a>
-            </li>
-          </p>
-          <div id="input-list"></div>
-        </div>
-      </div>
-      <div id="mid">
-        <div id="mid-top">
-          <img
-            src="./photos/nate-headshot.jpg"
-            alt="Nate Wood photo"
-            id="nate-photo"
-          />
-          <li>
-            I am Nate Wood. <br /><br />
-            A full stack web developer for the modern age.
-          </li>
-        </div>
-        <li>
-          <a href="https://our-church-calendar-database.herokuapp.com/"
-            ><img
-              src="./photos/web-church-cal.png"
-              alt="church calendar project"
-              class="web-pic"
-          /></a>
-        </li>
-        <li>
-          <a href="https://falloutfanclub.herokuapp.com/"
-            ><img
-              src="./photos/web-fallout-3.png"
-              alt="fallout 3 page"
-              class="web-pic"
-          /></a>
-        </li>
-        <div id="mid-center"></div>
-        <div id="mid-base"></div>
-      </div>
-      <div id="right-side">
+    <main>
+      <aside>
         <li>JavaScript</li>
         <img src="./photos/javascript.png" alt="" />
         <li>HTML5</li>
@@ -99,40 +36,82 @@
         <img src="./photos/heroku.png" alt="" />
         <li>Postman</li>
         <img src="./photos/postman.png" alt="" />
-      </div>
-    </section>
-    <footer>
-      <p id="footer">© natewoodprojects 2022</p>
-    </footer>
+      </aside>
+      <article id="info">
+        <p id="title">
+          NATE <br />
+          WOOD <br />
+          PROJECTS
+        </p>
+        <p id="catchphrase">fullstack apps for the modern age</p>
+        <p id="bio">
+          AKA TakoKing, I am a software developer in Chicago, IL. <br />
+          I create websites with good ol' html, css, and javascript utilizing
+          axios, cors and express, and what's more, I enjoy it.
+        </p>
+        <section id="app-links">
+          <p>check out my apps!</p>
+          <div id="website-box">
+            <a href="https://our-church-calendar-database.herokuapp.com/"
+              ><img
+                src="./photos/church-cal.png"
+                alt=""
+                class="website"
+                target="_blank"
+                rel="noreferrer noopener"
+            /></a>
+            <a href="https://falloutfanclub.herokuapp.com/"
+              ><img
+                src="./photos/falout-3.jpg"
+                alt=""
+                class="website"
+                target="_blank"
+                rel="noreferrer noopener"
+            /></a>
+            <a href=""
+              ><img
+                src=""
+                alt=""
+                class="website"
+                target="_blank"
+                rel="noreferrer noopener"
+            /></a>
+          </div>
+        </section>
+      </article>
+      <article id="picture-links-area">
+        <section id="profile-contact">
+          <img src="./photos/nate-headshot.jpg" alt="" id="profile-pic" />
+          <section id="links">
+            <a
+              href="mailto:natewoodprojects@gmail.com"
+              subject="Let's connect!"
+              target="_blank"
+              rel="noreferrer noopener"
+              ><img src="./photos/gmail.png" alt="Gmail" class="connect-links"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/natewoodprojects/"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="connect-links"
+              ><img
+                src="./photos/linkedin.png"
+                alt="LinkedIn"
+                class="connect-links"
+            /></a>
+            <a
+              href="https://github.com/natewoodprojects/"
+              target="_blank"
+              rel="noreferrer noopener"
+              ><img
+                src="./photos/github-2.png"
+                alt="github"
+                class="connect-links"
+            /></a>
+          </section>
+        </section>
+      </article>
+    </main>
   </body>
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <script src="main.js"></script>
 </html>
-
-<!-- A fullstack web developer for the modern world. 
-A full stack web developer for the modern age.
-A full stack web developer for the modern age.
-A web developer with an eye for detail and a passion for creating beautiful, functional websites.
-A web developer with an eye for detail and a passion for creating beautiful, functional websites.
-I build the future.
-
-- using clear and concise variable and function names
-- using consistent indentation and spacing
-- commenting code to explain its purpose
-- avoiding unnecessary code complexity
-- following established coding conventions
-
-1. Laptops are portable, which means they can be taken with you wherever you go.
-
-2. Laptops allow you to stay connected to the internet and to your work or school even when you’re away from home.
-
-3. Laptops can be used for a variety of tasks, from writing papers to watching movies and everything in between.
-
-4. Laptops are relatively affordable, which makes them a great option for students or for people who need a portable computer but don’t want to spend a lot of money.
-
-5. Laptops offer a lot of features and options, which means there’s a laptop out there for everyone.
-
--matplotlib
--seaborn
--pandas
--plotly -->
