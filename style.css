@@ -16,6 +16,10 @@ main {
   font-family: "Joan", serif;
 }
 
+#python {
+  padding: 5px;
+}
+
 #logo {
   border: 2px solid black;
   font-size: 3vw;
